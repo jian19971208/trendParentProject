@@ -6,6 +6,7 @@
   <modules>
     <module>eureka-server</module>
       <module>third-part-index-data-project</module>
+    <module>index-gather-store-service</module>
   </modules>
 
   <packaging>pom</packaging>
@@ -35,6 +36,15 @@
       <artifactId>hutool-all</artifactId>
       <version>4.3.1</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.10</version>
+      <scope>provided</scope>
+    </dependency>
+
+
   </dependencies>
 
   <dependencyManagement>
